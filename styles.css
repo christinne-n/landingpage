@@ -37,7 +37,8 @@ ul{
     align-items: center;
 }
 .text{
-    padding-right: 20px;
+    padding-right: 300px;
+    max-width: 500px;
 }
 button{
     background-color: #3882F6;
@@ -46,4 +47,28 @@ button{
     border: none;
     border-radius: 6px;
     margin-top: 10px;
+}
+.secondbody{
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    flex-direction: row;
+}
+p{
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    max-width: 180px;
+}
+.box1,.box2,.box3,.box4{
+    border: 3px solid #3882F8;
+    border-radius: 10px;
+    width: 150px;
+    aspect-ratio: 1/1;
+}
+.secondtitle{
+    font-weight: 900;
+    font-size: 36px;
+    color: #1F2937;
+    text-align: center;
+    padding: 40px;
 }
